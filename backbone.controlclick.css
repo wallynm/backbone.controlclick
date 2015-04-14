@@ -1,0 +1,53 @@
+body[data-type="dropdown"] .controlclick.footer {
+  left: 42px;
+}
+.controlclick {
+  line-height: 0px;
+}
+.controlclick.footer {
+  position: fixed;
+  left: 225px;
+  right: 0px;
+  bottom: 0px;
+  height: 50px;
+  z-index: 99;
+  display: block;
+  background-color: #1d1d1d;
+  width: initial;
+  padding: 7px 30px;
+}
+.controlclick.footer button {
+  font-size: 14px;
+  padding: 9px;
+  background: #252525;
+  color: #FFF;
+  border: 2px solid #161616;
+  float: left;
+  margin-right: 7px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.controlclick.footer button:hover {
+  background: #373737;
+}
+.controlclick.footer button i {
+  font-size: 15px;
+  margin-right: 10px;
+}
+.controlclick.footer .btn-toolbar-toggle {
+  background: url(../images/btn-close-toolbar.png) !important;
+  position: absolute;
+  width: 20px;
+  height: 55px;
+  right: -17px;
+  top: 0px;
+  color: #FFF;
+  font-size: 11px;
+  float: left;
+  cursor: pointer;
+}
+.controlclick.footer .btn-toolbar-toggle:before {
+  top: 24px;
+  left: 4px;
+  position: relative;
+}
