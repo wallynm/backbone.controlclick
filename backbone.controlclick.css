@@ -17,15 +17,10 @@ body[data-type="dropdown"] .controlclick.footer {
   padding: 7px 30px;
 }
 .controlclick.footer button {
-  font-size: 14px;
-  padding: 9px;
+  padding: 8px;
   background: #252525;
-  color: #FFF;
   border: 2px solid #161616;
-  float: left;
   margin-right: 7px;
-  text-decoration: none;
-  cursor: pointer;
 }
 .controlclick.footer button:hover {
   background: #373737;
